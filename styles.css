@@ -358,3 +358,23 @@ td{
 #bandcamp-link:hover {
     color: #7c750d;
 }
+
+@media (max-width: 768px) {
+    #sam-block {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #sam-pic {
+        width: 90%;
+    }
+    #sam-pic-description {
+        width: 90%;
+    }
+
+    .album-container {
+        flex-direction: column;
+        align-items: center;
+    }
+}

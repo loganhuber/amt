@@ -377,4 +377,9 @@ td{
         flex-direction: column;
         align-items: center;
     }
+    .content-container {
+        width: 90%;
+        margin-right: auto;
+        margin-left: auto;
+    }
 }

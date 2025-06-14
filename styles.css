@@ -383,4 +383,7 @@ td{
         margin-right: auto;
         margin-left: auto;
     }
+        .album-description {
+        padding: 0;
+    }
 }

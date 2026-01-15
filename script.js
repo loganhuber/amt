@@ -21,9 +21,7 @@ const loaderContent = `<h2>${randomMsg}</h2><br><span class="throbber"></span>`;
 document.getElementById("loader").innerHTML = loaderContent;
 
 window.addEventListener('load', () => {
-  // Hide the loader
   document.getElementById('loader').style.display = 'none';
-  // Show the content
   document.getElementById('content').style.display = 'block';
 });
 
